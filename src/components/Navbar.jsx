@@ -13,15 +13,16 @@ const Navbar = () => {
     { href: "#services", label: "Services" },
     { href: "#testimonial", label: "Testimonial" },
   ];
+
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 showdow-sm">
-      <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
+    <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
+      <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <div className="cursor-pointer">
-          <img src={logo} alt="" />
+          <img src={logo} alt="Logo" className="h-8" />
         </div>
 
         <button
-          className="md:hidden cursor-pointer text-3xl"
+          className="md:hidden text-3xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <FaXmark /> : <IoMenu />}
@@ -45,16 +46,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-blue-600 text-white cursor-pointer px-4 py-2 rounded-md font-bold">
-            Get in Touch{" "}
+          <button className="bg-blue-600 text-white px-4 py-2 rounded-md font-bold">
+            Get in Touch
           </button>
         </div>
-
-        {/* <div></div> */}
       </div>
 
       {isMenuOpen && (
-        <ul>
+        <ul className="md:hidden flex flex-col gap-4 p-4 bg-white border-t">
           {navLinks.map((menu) => (
             <li key={menu.href} className="text-center">
               <a
