@@ -3,6 +3,7 @@ import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Monitor from "./components/Monitor";
 import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
 import Purpose from "./components/Purpose";
 import Schudule from "./components/Schudule";
 
@@ -18,6 +19,7 @@ const App = () => {
         <Feature />
         <Schudule />
         <Monitor />
+        <Pricing />
       </div>
     </main>
   );
