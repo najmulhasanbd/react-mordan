@@ -1,8 +1,10 @@
 import CompanyLogo from "./components/CompanyLogo";
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Monitor from "./components/Monitor";
 import Navbar from "./components/Navbar";
+import NewsLetter from "./components/NewsLetter";
 import Pricing from "./components/Pricing";
 import Purpose from "./components/Purpose";
 import Schudule from "./components/Schudule";
@@ -24,6 +26,8 @@ const App = () => {
         <Pricing />
         <Services />
         <Testimonial />
+        <NewsLetter />
+        <Footer />
       </div>
     </main>
   );
