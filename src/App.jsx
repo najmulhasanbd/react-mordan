@@ -1,9 +1,10 @@
 import CompanyLogo from "./components/CompanyLogo";
 import Feature from "./components/Feature";
 import Hero from "./components/Hero";
+import Monitor from "./components/Monitor";
 import Navbar from "./components/Navbar";
 import Purpose from "./components/Purpose";
-import Schudule from "./Schudule";
+import Schudule from "./components/Schudule";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Purpose />
         <Feature />
         <Schudule />
+        <Monitor />
       </div>
     </main>
   );

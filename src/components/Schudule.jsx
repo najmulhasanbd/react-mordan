@@ -1,4 +1,4 @@
-import image from "./assets/stats.webp";
+import image from "../assets/stats.webp";
 const Schudule = () => {
   return (
     <section className="max-w-7xl mx-auto px-4 py-16 md:py-24">
