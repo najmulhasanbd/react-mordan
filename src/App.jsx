@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Purpose from "./components/Purpose";
 import Schudule from "./components/Schudule";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Schudule />
         <Monitor />
         <Pricing />
+        <Services />
       </div>
     </main>
   );
