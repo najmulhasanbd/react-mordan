@@ -1,5 +1,9 @@
+import CompanyLogo from "./components/CompanyLogo";
+import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Purpose from "./components/Purpose";
+import Schudule from "./Schudule";
 
 const App = () => {
   return (
@@ -8,6 +12,10 @@ const App = () => {
       <div className="overflow-hidden">
         <Navbar />
         <Hero />
+        <CompanyLogo />
+        <Purpose />
+        <Feature />
+        <Schudule />
       </div>
     </main>
   );
