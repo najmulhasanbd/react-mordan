@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import Purpose from "./components/Purpose";
 import Schudule from "./components/Schudule";
 import Services from "./components/Services";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Monitor />
         <Pricing />
         <Services />
+        <Testimonial />
       </div>
     </main>
   );
